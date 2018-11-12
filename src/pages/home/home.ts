@@ -6,6 +6,7 @@ import { TransportPage } from '../transport/transport';
 import { BancairePage } from '../bancaire/bancaire';
 import { HotelierPage } from '../hotelier/hotelier';
 import { SocialPage } from '../social/social';
+import { SearchPage } from '../search/search';
 
 
 
@@ -16,7 +17,7 @@ import { SocialPage } from '../social/social';
 export class HomePage {
   
   pages: Array<{title: string, img: string, description: string, component: any}>;
-
+  public isSearchbarOpened = false;
 
   constructor(public navCtrl: NavController) {
     this.pages = [
@@ -29,7 +30,13 @@ export class HomePage {
 
     ];
   }
+  onSearch(event){
+    console.log(event.target.value);
+    }
 OpenPage(page){
  this.navCtrl.push(page.component);
+}
+goToSearch(){
+  this.navCtrl.push(SearchPage,{},{animate:false});
 }
 }

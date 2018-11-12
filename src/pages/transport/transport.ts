@@ -29,7 +29,7 @@ export class TransportPage {
       this.navCtrl.push(page.component);
      }
     addActor(){
-      this.pages.push({ title: 'test', img:'../assets/imgs/health-care.png',component: TransportPage });
+      this.pages.push({ title: 'test', img:'../assets/imgs/bus.png',component: TransportPage });
     }
     ionViewDidLoad() {
       console.log('ionViewDidLoad TransportPage');

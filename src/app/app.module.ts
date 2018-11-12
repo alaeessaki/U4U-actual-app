@@ -12,6 +12,7 @@ import { TransportPage } from '../pages/transport/transport';
 import { BancairePage } from '../pages/bancaire/bancaire';
 import { HotelierPage } from '../pages/hotelier/hotelier';
 import { SocialPage } from '../pages/social/social';
+import { SearchPage } from '../pages/search/search';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -28,7 +29,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TransportPage,
     BancairePage,
     HotelierPage,
-    SocialPage
+    SocialPage,
+    SearchPage
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TransportPage,
     BancairePage,
     HotelierPage,
-    SocialPage
+    SocialPage,
+    SearchPage
   ],
   providers: [
     StatusBar,

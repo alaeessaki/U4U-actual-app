@@ -3,7 +3,12 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <img class="logo" src="../assets/imgs/applogo.png">
+    <img class="logo" src="../assets/imgs/applogo.png" *ngIf="!isSearchbarOpened">
+    <ion-buttons end>
+      <button ion-button  icon-only (click)="goToSearch()">
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
