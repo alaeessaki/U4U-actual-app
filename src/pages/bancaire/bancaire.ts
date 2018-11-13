@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { AtdaPage } from '../atda/atda';
+import { BanquePage } from '../banque/banque';
 /**
  * Generated class for the BancairePage page.
  *
@@ -19,8 +20,8 @@ export class BancairePage {
   
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.pages = [
-      { title: 'Banque', img:'../assets/imgs/debit-card.png',component: BancairePage },
-      { title: "Agence de transfert d'argent", img:'../assets/imgs/money-transfer.png',component: BancairePage }
+      { title: 'Banque', img:'../assets/imgs/debit-card.png',component: BanquePage },
+      { title: "Agence de transfert d'argent", img:'../assets/imgs/money-transfer.png',component: AtdaPage }
     ];
   }
   OpenPage(page){

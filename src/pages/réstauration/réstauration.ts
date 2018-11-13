@@ -1,5 +1,11 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { CafePage } from '../cafe/cafe';
+import { RestaurantsPage } from '../restaurants/restaurants';
+import { FastFoodPage } from '../fast-food/fast-food';
+import { ClubDeLoisirsPage } from '../club-de-loisirs/club-de-loisirs';
+import { PiscinePage } from '../piscine/piscine';
+
 
 /**
  * Generated class for the RéstaurationPage page.
@@ -19,11 +25,11 @@ export class RéstaurationPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.pages = [
-      { title: 'Café', img:'../assets/imgs/café.png',component: RéstaurationPage },
-      { title: 'Réstaurant', img:'../assets/imgs/resto.png',component: RéstaurationPage },
-      { title: 'Fast-Food', img:'../assets/imgs/stand.png',component: RéstaurationPage },
-      { title: "Club de loisirs", img:'../assets/imgs/loisirs.png',component: RéstaurationPage },
-      { title: 'Piscine', img:'../assets/imgs/swimming-pool.png',component: RéstaurationPage }
+      { title: 'Café', img:'../assets/imgs/café.png',component: CafePage },
+      { title: 'Réstaurant', img:'../assets/imgs/resto.png',component: RestaurantsPage },
+      { title: 'Fast-Food', img:'../assets/imgs/stand.png',component: FastFoodPage },
+      { title: "Club de loisirs", img:'../assets/imgs/loisirs.png',component: ClubDeLoisirsPage },
+      { title: 'Piscine', img:'../assets/imgs/swimming-pool.png',component: PiscinePage }
 
     ];
   }

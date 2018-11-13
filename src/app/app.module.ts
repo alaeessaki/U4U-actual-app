@@ -13,6 +13,25 @@ import { BancairePage } from '../pages/bancaire/bancaire';
 import { HotelierPage } from '../pages/hotelier/hotelier';
 import { SocialPage } from '../pages/social/social';
 import { SearchPage } from '../pages/search/search';
+import { CliniquesPage } from '../pages/cliniques/cliniques';
+import { DentistesPage } from '../pages/dentistes/dentistes';
+import { HopitauxPage } from '../pages/hopitaux/hopitaux';
+import { LamPage } from '../pages/lam/lam';
+import { PharmaciesPage } from '../pages/pharmacies/pharmacies';
+import { CafePage } from '../pages/cafe/cafe';
+import { RestaurantsPage } from '../pages/restaurants/restaurants';
+import { FastFoodPage } from '../pages/fast-food/fast-food';
+import { ClubDeLoisirsPage } from '../pages/club-de-loisirs/club-de-loisirs';
+import { PiscinePage } from '../pages/piscine/piscine';
+import { PetitTaxiPage } from '../pages/petit-taxi/petit-taxi';
+import { GrandTaxiPage } from '../pages/grand-taxi/grand-taxi';
+import { TrainPage } from '../pages/train/train';
+import { BusPage } from '../pages/bus/bus';
+import { AtdaPage } from '../pages/atda/atda';
+import { BanquePage } from '../pages/banque/banque';
+import { AssociationsPage } from '../pages/associations/associations';
+import { HotelPage } from '../pages/hotel/hotel';
+import { AppartementPage } from '../pages/appartement/appartement';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -30,7 +49,27 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BancairePage,
     HotelierPage,
     SocialPage,
-    SearchPage
+    SearchPage,
+    CliniquesPage,
+    DentistesPage,
+    HopitauxPage,
+    LamPage,
+    PharmaciesPage,
+    CafePage,
+    RestaurantsPage,
+    FastFoodPage,
+    ClubDeLoisirsPage,
+    PiscinePage,
+    PetitTaxiPage,
+    GrandTaxiPage,
+    TrainPage,
+    BusPage,
+    AtdaPage,
+    BanquePage,
+    AssociationsPage,
+    HotelPage,
+    AppartementPage
+    
   ],
   imports: [
     BrowserModule,
@@ -48,7 +87,27 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BancairePage,
     HotelierPage,
     SocialPage,
-    SearchPage
+    SearchPage,
+    CliniquesPage,
+    DentistesPage,
+    HopitauxPage,
+    LamPage,
+    PharmaciesPage,
+    CafePage,
+    RestaurantsPage,
+    FastFoodPage,
+    ClubDeLoisirsPage,
+    PiscinePage,
+    PetitTaxiPage,
+    GrandTaxiPage,
+    TrainPage,
+    BusPage,
+    AtdaPage,
+    BanquePage,
+    AssociationsPage,
+    HotelPage,
+    AppartementPage
+   
   ],
   providers: [
     StatusBar,

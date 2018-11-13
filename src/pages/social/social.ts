@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { AssociationsPage } from '../associations/associations';
 
 /**
  * Generated class for the SocialPage page.
@@ -19,7 +20,7 @@ export class SocialPage {
   
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.pages = [
-      { title: 'Association', img:'../assets/imgs/teamwork.png',component: SocialPage }
+      { title: 'Association', img:'../assets/imgs/teamwork.png',component: AssociationsPage }
     ];
   }
   OpenPage(page){

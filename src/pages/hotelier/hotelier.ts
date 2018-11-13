@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { HotelPage } from '../hotel/hotel';
+import { AppartementPage } from '../appartement/appartement';
 /**
  * Generated class for the HotelierPage page.
  *
@@ -18,8 +19,8 @@ export class HotelierPage {
   
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.pages = [
-      { title: 'Hôtel', img:'../assets/imgs/bed.png',component: HotelierPage },
-      { title: 'Apartement', img:'../assets/imgs/house.png',component: HotelierPage }
+      { title: 'Hôtel', img:'../assets/imgs/bed.png',component: HotelPage },
+      { title: 'Apartement', img:'../assets/imgs/house.png',component: AppartementPage }
 
     ];
   }

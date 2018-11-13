@@ -1,5 +1,11 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { CliniquesPage } from '../cliniques/cliniques';
+import { DentistesPage } from '../dentistes/dentistes';
+import { HopitauxPage } from '../hopitaux/hopitaux';
+import { LamPage } from '../lam/lam';
+import { PharmaciesPage } from '../pharmacies/pharmacies';
+
 
 /**
  * Generated class for the SantéPage page.
@@ -18,11 +24,11 @@ export class SantéPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.pages = [
-      { title: 'Hopital', img:'../assets/imgs/hospital-buildings.png',component: SantéPage },
-      { title: 'Clinique', img:'../assets/imgs/medicine.png',component: SantéPage },
-      { title: 'Pharmacie', img:'../assets/imgs/medicine.png',component: SantéPage },
-      { title: "Laboratoire d'analyse médicale", img:'../assets/imgs/blood-sample.png',component: SantéPage },
-      { title: 'Dentiste', img:'../assets/imgs/tooth.png',component: SantéPage }
+      { title: 'Hopital', img:'../assets/imgs/hospital-buildings.png',component: HopitauxPage },
+      { title: 'Clinique', img:'../assets/imgs/bed (1).png',component: CliniquesPage },
+      { title: 'Pharmacie', img:'../assets/imgs/medicine.png',component: PharmaciesPage },
+      { title: "Laboratoire d'analyse médicale", img:'../assets/imgs/blood-sample.png',component: LamPage },
+      { title: 'Dentiste', img:'../assets/imgs/tooth.png',component: DentistesPage }
 
     ];
   }

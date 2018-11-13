@@ -24,7 +24,7 @@ export class HomePage {
       { title: 'Santé', img:'../assets/imgs/health-care.png', description: 'Hopitaux,Pharmacies,Dentistes...' ,component: SantéPage },
       { title: 'Réstauration', img:'../assets/imgs/restaurant.png', description: 'Restaurants, Fast-Food, Café...' ,component: RéstaurationPage },
       { title: 'Transport', img:'../assets/imgs/sports-car.png', description: 'Train, Grand-Taxi, Petit-Taxi...' ,component: TransportPage },
-      { title: 'Bancaire', img:'../assets/imgs/payment-method.png', description: 'Banques, Agences, Assurances...' ,component: BancairePage },
+      { title: 'Finance', img:'../assets/imgs/payment-method.png', description: 'Banques, Agences, Assurances...' ,component: BancairePage },
       { title: 'Hôtelier', img:'../assets/imgs/bed.png', description: 'Hotels, Appartements,... ' ,component: HotelierPage },
       { title: 'Social', img:'../assets/imgs/group.png', description: 'Associations,...' ,component: SocialPage },
 
